@@ -340,3 +340,75 @@ body {
 	width: 370px;
 	height: 370px;
 }
+
+/**/
+
+.hot-deals {	
+	height: 800px;
+	background-image: url(img/slider.png);
+	
+    flex-direction: column;
+	padding-left: 98px;
+	
+}
+
+.hot-deals-tag {
+	color: #e53935;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	
+	padding-top: 287px;
+}
+
+.hot-deals-name {
+	color: #212121;
+	font-size: 62px;
+	font-weight: 100;
+	line-height: 72px;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+	
+	padding-left: 7px;
+	padding-top: 22px;
+}
+
+.hot-deals-details {
+	width: 458px;
+	height: 38px;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	
+	padding-top: 34px;
+}
+
+.hot-deals-btn-hover-cont {
+	padding-top: 32px;
+	padding-bottom :120px;
+}
+
+.hot-deals-btn-hover {
+	
+	margin-top: 34px;
+	
+	width: 160px;
+	
+    display: inline-block;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 0px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-decoration: none;	
+}
